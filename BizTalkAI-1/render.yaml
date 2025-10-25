@@ -1,0 +1,65 @@
+# Render Deployment Configuration
+
+## Web Service Configuration
+
+### Build Command
+```bash
+npm install && npm run build
+```
+
+### Start Command
+```bash
+npm start
+```
+
+### Environment
+- **Node Version**: 18.x or 20.x
+- **Auto-Deploy**: Yes (from main branch)
+
+### Environment Variables
+Set these in Render dashboard:
+
+#### Required Variables
+- `NODE_ENV=production`
+- `PORT=10000` (Render will set this automatically)
+
+#### Database Variables (if using Neon/PostgreSQL)
+- `DATABASE_URL=your_neon_database_url`
+
+#### OpenAI Variables (if using AI features)
+- `OPENAI_API_KEY=your_openai_api_key`
+
+#### Session Secret
+- `SESSION_SECRET=your_random_session_secret`
+
+### Health Check Path
+- **Health Check Path**: `/api/health` (optional)
+
+### Static Site Configuration (Alternative)
+If you prefer to deploy as a static site:
+
+#### Build Command
+```bash
+npm install && npm run build:client
+```
+
+#### Publish Directory
+```
+dist/public
+```
+
+## Database Setup (Optional)
+If you need a database:
+1. Create a PostgreSQL database in Render
+2. Copy the database URL
+3. Add it as `DATABASE_URL` environment variable
+
+## Custom Domain (Optional)
+1. Go to your service settings
+2. Add your custom domain
+3. Update DNS records as instructed
+
+## Monitoring
+- Render provides built-in monitoring
+- Check logs in the Render dashboard
+- Set up alerts for downtime

@@ -1,0 +1,50 @@
+{
+  "packageId": "com.hainager.app",
+  "appName": "Hainager",
+  "appShortName": "Hainager",
+  "color": "#000000",
+  "backgroundColor": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "themeColor": "#000000",
+  "startUrl": "/",
+  "scope": "/",
+  "iconUrl": "https://your-replit-url.replit.dev/icon-512x512.png",
+  "maskableIconUrl": "https://your-replit-url.replit.dev/icon-512x512.png",
+  "monochromeIconUrl": "https://your-replit-url.replit.dev/icon-192x192.png",
+  "splashScreenFadeOutDuration": 300,
+  "enableNotifications": true,
+  "shortcuts": [
+    {
+      "name": "Search Directory",
+      "short_name": "Search",
+      "description": "Search businesses in the directory",
+      "url": "/?action=search",
+      "icons": [
+        {
+          "src": "https://your-replit-url.replit.dev/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "webManifestUrl": "https://your-replit-url.replit.dev/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "playBilling": false,
+    "locationDelegation": false,
+    "googlePlayBilling": false
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "minSdkVersion": 21,
+  "targetSdkVersion": 33,
+  "gradleVersion": "7.6.4",
+  "compileSdkVersion": 33,
+  "versionCode": 1,
+  "versionName": "1.0.0"
+}

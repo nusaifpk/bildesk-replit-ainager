@@ -1,0 +1,13 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.onrender.efa2_hamdan_forked.twa",
+        "sha256_cert_fingerprints": [
+          "98:E5:B2:49:C3:E3:12:7C:67:4C:C1:B4:3E:A4:2F:CC:12:6C:B0:87:EC:08:10:D9:87:3A:E1:56:38:0A:37:09"
+        ]
+      }
+    }
+  ]
+  
