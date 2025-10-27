@@ -41,7 +41,7 @@ def twaManifest = [
     // - icon: Name of the resource in the drawable folder to use as an icon.
     shortcuts: [[name:'Search Directory', short_name:'Search', url:'https://bildesk-replit-ainager-ainager041.replit.app/?action=search', icon:'shortcut_0']],
     // The duration of fade out animation in milliseconds to be played when removing splash screen.
-    splashScreenFadeOutDuration: 300,
+    splashScreenFadeOutDuration: 2500,
     generatorApp: 'bubblewrap-cli', // Application that generated the Android Project
     // The fallback strategy for when Trusted Web Activity is not available. Possible values are
     // 'customtabs' and 'webview'.
@@ -150,6 +150,7 @@ android {
 
         
     }
+    
     signingConfigs {
         release {
             storeFile file('../hainager-release.keystore')
@@ -158,6 +159,7 @@ android {
             keyPassword 'hainager123'
         }
     }
+    
     buildTypes {
         release {
             minifyEnabled true
@@ -216,6 +218,8 @@ repositories {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+    
+        implementation 'com.google.androidbrowserhelper:billing:1.1.0'
     
         implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.6.2'
     
