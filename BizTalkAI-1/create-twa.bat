@@ -1,8 +1,9 @@
 @echo off
 echo Creating TWA for Hainager...
 echo.
-echo Please provide your Replit URL (e.g., https://your-app-name.your-username.replit.dev)
-set /p REPLIT_URL="Enter your Replit URL: "
+echo Please provide your Replit URL (default: https://bildesk-replit-ainager-ainager041.replit.app)
+set /p REPLIT_URL="Enter your Replit URL (or press Enter for default): "
+if "%REPLIT_URL%"=="" set REPLIT_URL=https://bildesk-replit-ainager-ainager041.replit.app
 
 echo.
 echo Updating configuration with your URL...

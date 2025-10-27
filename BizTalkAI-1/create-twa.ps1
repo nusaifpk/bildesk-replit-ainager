@@ -3,11 +3,11 @@ Write-Host "Creating TWA for Hainager..." -ForegroundColor Green
 Write-Host ""
 
 # Get Replit URL from user
-$replitUrl = Read-Host "Enter your Replit URL (e.g., https://your-app-name.your-username.replit.dev)"
+$replitUrl = Read-Host "Enter your Replit URL (default: https://bildesk-replit-ainager-ainager041.replit.app)"
 
 if ([string]::IsNullOrWhiteSpace($replitUrl)) {
-    Write-Host "Error: Replit URL is required!" -ForegroundColor Red
-    exit 1
+    $replitUrl = "https://bildesk-replit-ainager-ainager041.replit.app"
+    Write-Host "Using default URL: $replitUrl" -ForegroundColor Yellow
 }
 
 Write-Host ""

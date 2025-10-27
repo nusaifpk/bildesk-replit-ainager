@@ -3,9 +3,9 @@
       "relation": ["delegate_permission/common.handle_all_urls"],
       "target": {
         "namespace": "android_app",
-        "package_name": "com.onrender.efa2_hamdan_forked.twa",
+        "package_name": "app.replit.bildesk_replit_ainager_ainager041.twa",
         "sha256_cert_fingerprints": [
-          "98:E5:B2:49:C3:E3:12:7C:67:4C:C1:B4:3E:A4:2F:CC:12:6C:B0:87:EC:08:10:D9:87:3A:E1:56:38:0A:37:09"
+          "B6:79:70:B1:89:1B:B6:E5:FE:22:22:15:9A:CF:22:54:9E:81:7D:CC:25:9C:77:0A:DF:44:AF:48:04:21:0E:08"
         ]
       }
     }
