@@ -1,0 +1,59 @@
+{
+  "packageId": "app.replit.bildesk_replit_ainager_ainager041.twa",
+  "host": "bildesk-replit-ainager-ainager041.replit.app",
+  "name": "Hainager",
+  "launcherName": "hainager",
+  "display": "standalone",
+  "themeColor": "#000000",
+  "themeColorDark": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://bildesk-replit-ainager-ainager041.replit.app/icon-512x512.png",
+  "maskableIconUrl": "https://bildesk-replit-ainager-ainager041.replit.app/icon-512x512.png",
+  "monochromeIconUrl": "https://bildesk-replit-ainager-ainager041.replit.app/icon-192x192.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "C:\\Users\\nusai\\OneDrive\\Desktop\\ainager\\efa2_hamdan_forked\\BizTalkAI-1\\hainager-twa\\android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Search Directory",
+      "shortName": "Search",
+      "url": "https://bildesk-replit-ainager-ainager041.replit.app/?action=search",
+      "chosenIconUrl": "https://bildesk-replit-ainager-ainager041.replit.app/icon-192x192.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://bildesk-replit-ainager-ainager041.replit.app/manifest.json",
+  "fallbackType": "webview",
+  "features": {
+    "playBilling": false,
+    "locationDelegation": false,
+    "googlePlayBilling": false
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://bildesk-replit-ainager-ainager041.replit.app/",
+  "minSdkVersion": 21,
+  "orientation": "portrait",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "fileHandlers": [],
+  "launchHandlerClientMode": "",
+  "displayOverride": [],
+  "appVersion": "1"
+}
